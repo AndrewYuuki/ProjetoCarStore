@@ -76,3 +76,7 @@ textarea{
 .form-body p{
     margin-bottom: 20px;
 }
+
+.campo-brigatorio{
+    color: red;
+}

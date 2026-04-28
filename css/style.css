@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: bisque;
+    background: radial-gradient(circle, rgb(21, 29, 21),rgb(201, 199, 201));
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -34,7 +34,7 @@ textarea{
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: blueviolet;
+    background:linear-gradient(30deg, green,purple)
 }
 .cabecalho h3{
     color: #ccc;
@@ -43,8 +43,24 @@ textarea{
 
 .form-container{
     background-color: aquamarine;
-    width: 60px;
+    width: 60%;
     margin: 0 auto;
     position: relative;
     top: -45px;
+}
+
+.from-header{
+    border-bottom: 1px solid blueviolet;
+    height: 45px;
+}
+
+.from-headerp{
+    color: black;
+    border-bottom: 2px solid grey;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    list-style: 45px;
 }
